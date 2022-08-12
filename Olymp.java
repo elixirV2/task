@@ -19,6 +19,7 @@ public class Task {
 		for(int i = 0; i < N; i++) {
 			time.add(in.nextInt());
 		}
+		
 		// ПОРЯДОК ВЫЗОВА ВАЖЕН!!!
 		// ORDER OF CALLS IS IMPORTANT!!!
 		HashMap<String, Integer> res = new HashMap<>();
